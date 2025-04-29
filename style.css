@@ -107,7 +107,8 @@
     padding-inline: 1rem;
     display: grid;
     gap: 2rem;
-    overflow-x: hidden;
+    overflow: visible !important;
+    height: auto !important;
   }
   
   .header__image {
